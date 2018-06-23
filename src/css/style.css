@@ -60,9 +60,12 @@ body{
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
 }
 .btn,
 button {
+    margin: 10px;
     background: #1d1d1d;
     border: none;
     font-size: 10px;
@@ -86,7 +89,7 @@ button {
     position: relative;
     overflow: hidden;
 }
-@media (min-width: 400px) {
+@media (min-width: 600px) {
     .btn,
     button {
         width: auto;
